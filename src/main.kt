@@ -5,8 +5,8 @@ fun main(args: Array<String>) {
     val match = (num1 == num2)
     println("Match = $match")
 
-//    val match2 = num1.equals(num2)
-//    println("Match2 = $match2")
+    val match2 = num1.equals(num2)
+    println("Match2 = $match2")
 
     println("Comparison result = ${num1.compareTo(num2)}")
 }
